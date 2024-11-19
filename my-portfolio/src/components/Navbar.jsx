@@ -28,9 +28,9 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='flex justify-between items-center px-4 h-20 w-full text-white bg-black fixed'>
+    <div className='flex justify-between items-center px-4 h-10 sm:h-20 w-full text-white bg-black fixed'>
       <div>
-      <h1 className='text-5xl font-signature ml-2'>Adarsh</h1>
+      <h1 className='text-3xl sm:text-5xl font-signature ml-2'>Adarsh</h1>
       </div>
 
       <ul className='hidden md:flex'>
@@ -43,7 +43,7 @@ const Navbar = () => {
       </ul>
 
       <div onClick={() => {setNav(!nav)}} className='cursor-pointer pr-4 z-10 text-gray-50 md:hidden'>
-       {nav ? <FaTimes size={30}/> : <FaBars size={30}/>}
+       {nav ? <FaTimes size={25}/> : <FaBars size={25}/>}
       </div>
       
       {

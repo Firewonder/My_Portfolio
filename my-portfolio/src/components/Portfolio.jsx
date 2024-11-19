@@ -1,10 +1,6 @@
 import React from 'react'
-import nodeimg from '../assets/portfolio/nodeimg.jpg'
 import mongoimg from '../assets/portfolio/mongoimg.jpg'
-import reactimg from '../assets/portfolio/reactimg.jpg'
-import nodeimg2 from '../assets/portfolio/nodeimg.jpg'
 import mongoimg2 from '../assets/portfolio/mongoimg.jpg'
-import reactimg2 from '../assets/portfolio/reactimg.jpg'
 
 const Portfolio = () => {
   const portfolios = [
@@ -18,19 +14,19 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: nodeimg,
+      src: mongoimg,
     },
     {
       id: 4,
-      src: nodeimg2,
+      src: mongoimg2,
     },
     {
       id: 5,
-      src: reactimg,
+      src: mongoimg,
     },
     {
       id: 6,
-      src: reactimg2,
+      src: mongoimg2,
     },
   ]
   return (
