@@ -14,23 +14,23 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: mongoimg,
+      src: mongoimg2,
     },
     {
       id: 3,
-      src: mongoimg,
+      src: nodeimg,
     },
     {
       id: 4,
-      src: mongoimg2,
+      src: nodeimg2,
     },
     {
       id: 5,
-      src: mongoimg2,
+      src: reactimg,
     },
     {
       id: 6,
-      src: mongoimg2,
+      src: reactimg2,
     },
   ]
   return (
