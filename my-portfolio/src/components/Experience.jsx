@@ -62,7 +62,7 @@ const Experience = () => {
     {
       id: 9,
       src: github,
-      title: "GitHub ",
+      title: "GitHub",
       style: "shadow-gray-400",
     },
   ];
